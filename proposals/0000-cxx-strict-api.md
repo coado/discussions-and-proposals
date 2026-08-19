@@ -161,13 +161,14 @@ All guards are defined as follows:
 
 ```cpp
 // react/cxxstableapi/UmbrellaGuard.h
-#if defined(RN_STRICT_API) && !defined(RN_UMBRELLA_INCLUDE) && !defined(RN_BUILDING)
+#if defined(RN_STRICT_API) && !defined(RN_UMBRELLA_CONTEXT) && !defined(RN_BUILDING)
 #error "Do not include this header directly. Include the module umbrella <React/<Module>.h> instead."
 #endif
 
 // react/cxxstableapi/FrameworksGuard.h
 #if  defined(RN_STRICT_API) && \
-     !defined(RN_FRAMEWORK_ACCESS) && \
+     !defined(RN_ALLOW_FRAMEWORKS) && \
+     !defined(RN_UMBRELLA_CONTEXT) && \
      !defined(RN_BUILDING)
 #  if defined(__GNUC__) || defined(__clang__)
 #    pragma GCC warning "RuntimeScheduler.h is not part of the public API of React Native."
@@ -266,10 +267,18 @@ Frameworks should set the `RN_FRAMEWORK_ACCESS` flag to use symbols from the “
 
 3. Update CMakeLists.txt
 
-The umbrella headers need to be listed in the React namespace on header search paths.
+Add `react_cxxstableapi` to the module's existing `target_link_libraries` list so the
+guard header is a declared dependency of the Android/OSS CMake build:
 
 ```cpp
-target_include_directories(react_renderer_runtimescheduler PUBLIC ${PATH_TO_THE_MODULE_REACT_DIR})
+target_link_libraries(react_performance_timeline
+        jsinspector
+        jsinspector_tracing
+        reactperflogger
+        react_cxxstableapi
+        react_featureflags
+        react_timing
+        folly_runtime)
 ```
 
 4. Update the podspec file

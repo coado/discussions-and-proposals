@@ -351,6 +351,6 @@ After the grace period ends, following React Native releases will enforce the ne
 
 ## How we teach this
 
-Once the project is rolled out, we will prepare a blog post to be published along the React Native version announcement, similarly to (how it was done for the JS Stable API project)[https://reactnative.dev/blog/2025/06/12/moving-towards-a-stable-javascript-api]. In the blogpost we will explain the rationale behind the changes, what exactly changed, how to migrate to the new model, and how to enable the enforcement mechanism.
+Once the project is rolled out, we will prepare a blog post to be published along the React Native version announcement, similarly to [how it was done for the JS Stable API project](https://reactnative.dev/blog/2025/06/12/moving-towards-a-stable-javascript-api). In the blogpost we will explain the rationale behind the changes, what exactly changed, how to migrate to the new model, and how to enable the enforcement mechanism.
 
-Similarly (to the JS Stable API project)[https://github.com/react-native-community/discussions-and-proposals/discussions/893], we will also prepare a place to collect the community feedback about the new entry points during the grace period.
+Similarly [to the JS Stable API project](https://github.com/react-native-community/discussions-and-proposals/discussions/893), we will also prepare a place to collect the community feedback about the new entry points during the grace period.

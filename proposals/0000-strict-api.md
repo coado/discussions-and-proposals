@@ -6,7 +6,7 @@ author:
 date: 19.08.2026
 ---
 
-# RFC0000: Title goes here
+# RFC0000: Reducing React Native’s C/C++ Public API
 
 ## Summary
 

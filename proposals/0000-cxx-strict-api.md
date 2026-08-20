@@ -85,6 +85,11 @@ Considering the OSS usage and comments from our partners, we propose the followi
 - hermes/inspector-modern:chrome
 - react/renderer/dom:dom
 - oscompat:oscompat
+- react/renderer/observers/resize:resize
+- react/nativemodule/resizeobserver:resizeobserver
+- react/nativemodule/featureflags:featureflags
+- react/renderer/components/switch:iosswitch
+- react/runtime/nativeviewconfig:nativeviewconfig
 
 Consequently, we suggest the following targets to be used by frameworks only:
 

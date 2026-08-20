@@ -69,12 +69,10 @@ Considering the OSS usage and comments from our partners, we propose the followi
 - react/runtime:runtime
 - react/nativemodule/cputime:cputime
 - react/renderer/element:element
-- jsinspector-modern/tracing:jsinspector_tracing
 - react/nativemodule/devtoolsruntimesettings:devtoolsruntimesettings
 - react/renderer/observers/events:events
 - reactperflogger:reactperflogger
 - hermes/executor:executor
-- react/timing:timing
 - jserrorhandler:jserrorhandler
 - react/renderer/uimanager/consistency:consistency
 - react/nativemodule/microtasks:microtasks
@@ -85,9 +83,6 @@ Considering the OSS usage and comments from our partners, we propose the followi
 - react/nativemodule/defaults:defaults
 - jsinspector-modern/network:jsinspector_network
 - hermes/inspector-modern:chrome
-- jsinspector-modern/tracing:traceevent
-- jsinspector-modern/cdp:jsinspector_cdp
-- jsinspector-modern/tracing:profile
 - react/renderer/dom:dom
 - oscompat:oscompat
 
@@ -99,6 +94,10 @@ Consequently, we suggest the following targets to be used by frameworks only:
 - react/renderer/telemetry:telemetry
 - react/renderer/animated:animated
 - jsinspector-modern:jsinspector
+- jsinspector-modern/tracing:jsinspector_tracing
+- jsinspector-modern/tracing:traceevent
+- jsinspector-modern/cdp:jsinspector_cdp
+- jsinspector-modern/tracing:profile
 - react/renderer/imagemanager:imagemanager
 - jsitooling:jsitooling
 - react/renderer/mounting:mounting

@@ -73,7 +73,6 @@ Considering the OSS usage and comments from our partners, we propose the followi
 - react/renderer/observers/events:events
 - reactperflogger:reactperflogger
 - hermes/executor:executor
-- jserrorhandler:jserrorhandler
 - react/renderer/uimanager/consistency:consistency
 - react/nativemodule/microtasks:microtasks
 - react/nativemodule/viewtransition:viewtransition
@@ -105,6 +104,7 @@ Consequently, we suggest the following targets to be used by frameworks only:
 - jsinspector-modern/tracing:profile
 - react/renderer/imagemanager:imagemanager
 - jsitooling:jsitooling
+- jserrorhandler:jserrorhandler
 - react/renderer/mounting:mounting
 - cxxreact:tracesection
 - react/renderer/components/textinput:textinput

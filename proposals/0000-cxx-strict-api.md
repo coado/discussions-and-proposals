@@ -65,7 +65,6 @@ Considering the OSS usage and comments from our partners, we propose the followi
 - react/nativemodule/mutationobserver:mutationobserver
 - devtoolsruntimesettings:devtoolsruntimesettings
 - react/nativemodule/webperformance:webperformance
-- react/renderer/attributedstring:attributedstring
 - react/nativemodule/cputime:cputime
 - react/renderer/element:element
 - react/nativemodule/devtoolsruntimesettings:devtoolsruntimesettings
@@ -93,7 +92,6 @@ Consequently, we suggest the following targets to be used by frameworks only:
 
 - react/renderer/runtimescheduler:runtimescheduler
 - react/renderer/textlayoutmanager:textlayoutmanager
-- react/utils:utils
 - react/renderer/telemetry:telemetry
 - react/renderer/animated:animated
 - jsinspector-modern:jsinspector
@@ -108,7 +106,6 @@ Consequently, we suggest the following targets to be used by frameworks only:
 - cxxreact:tracesection
 - react/renderer/components/textinput:textinput
 - react/renderer/animations:animations
-- react/renderer/debug:debug
 - react/runtime:runtime
 - react/runtime/hermes:hermes
 - cxxreact:messagequeuethread

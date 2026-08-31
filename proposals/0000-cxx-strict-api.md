@@ -99,7 +99,6 @@ Consequently, we suggest the following targets to be used by frameworks only:
 - jsinspector-modern/tracing:traceevent
 - jsinspector-modern/cdp:jsinspector_cdp
 - jsinspector-modern/tracing:profile
-- react/renderer/imagemanager:imagemanager
 - jsitooling:jsitooling
 - jserrorhandler:jserrorhandler
 - react/renderer/mounting:mounting

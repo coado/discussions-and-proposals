@@ -105,6 +105,8 @@ Consequently, we suggest the following targets to be used by frameworks only:
 - cxxreact:tracesection
 - react/renderer/components/textinput:textinput
 - react/renderer/animations:animations
+- react/renderer/animationbackend:animationbackend
+- react/renderer/uimanager:uimanager
 - react/runtime:runtime
 - react/runtime/hermes:hermes
 - cxxreact:messagequeuethread

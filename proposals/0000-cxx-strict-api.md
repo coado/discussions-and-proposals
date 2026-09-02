@@ -94,6 +94,7 @@ Consequently, we suggest the following targets to be used by frameworks only:
 - react/renderer/textlayoutmanager:textlayoutmanager
 - react/renderer/telemetry:telemetry
 - react/renderer/animated:animated
+- react/renderer/bridging:bridging
 - jsinspector-modern:jsinspector
 - jsinspector-modern/tracing:jsinspector_tracing
 - jsinspector-modern/tracing:traceevent
